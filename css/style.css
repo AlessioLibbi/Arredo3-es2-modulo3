@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+    transition: width 2s, height 4s;
+}
+.img-container {
+    transition: width 2s, height 4s;
+}
+
+
+/* //STYLE INDEX */
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSw-5t95A8n7C4GOzn0hMmM9FTizjSNLD_Hg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.barba {
+    height: 600px;
+    width: 400px;
+    
+}
+.barba:hover {
+    transform: rotateX(150deg);
+}
